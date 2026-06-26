@@ -1,7 +1,3 @@
-Chào bạn, dựa trên nội dung báo cáo bạn cung cấp, dưới đây là gợi ý nội dung file `README.md` chuyên nghiệp, đầy đủ để bạn đăng tải lên GitHub.
-
----
-
 # Applying Machine Learning for Stock Price Forecasting and ESG Causal Analysis
 
 Đây là kho lưu trữ mã nguồn cho dự án nghiên cứu về ứng dụng các thuật toán Machine Learning để dự báo giá cổ phiếu hàng ngày và sử dụng kỹ thuật Double Machine Learning (DML) để phân tích tác động nhân quả của các yếu tố ESG (Môi trường, Xã hội, Quản trị) đến lợi nhuận doanh nghiệp.
