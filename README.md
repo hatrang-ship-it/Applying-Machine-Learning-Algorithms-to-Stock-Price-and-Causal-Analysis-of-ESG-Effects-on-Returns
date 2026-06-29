@@ -1,6 +1,6 @@
 # Applying Machine Learning for Stock Price Forecasting and ESG Causal Analysis
 
-Đây là kho lưu trữ mã nguồn cho dự án nghiên cứu về ứng dụng các thuật toán Machine Learning để dự báo giá cổ phiếu hàng ngày và sử dụng kỹ thuật Double Machine Learning (DML) để phân tích tác động nhân quả của các yếu tố ESG (Môi trường, Xã hội, Quản trị) đến lợi nhuận doanh nghiệp.
+Đây là toàn bộ dự án nghiên cứu về ứng dụng các thuật toán Machine Learning để dự báo giá cổ phiếu hàng ngày và sử dụng kỹ thuật Double Machine Learning (DML) để phân tích tác động nhân quả của các yếu tố ESG (Môi trường, Xã hội, Quản trị) đến lợi nhuận doanh nghiệp. Dữ liệu dùng trong dự án được lấy từ [ESG and Financial Performance Dataset](https://www.kaggle.com/datasets/shriyashjagtap/esg-and-financial-performance-dataset)
 
 ## 📝 Tóm tắt dự án
 
@@ -20,7 +20,6 @@ Nghiên cứu này tập trung vào hai mục tiêu chính:
 * **Ngôn ngữ:** Python
 * **Nền tảng:** Google Colab
 * **Thư viện chính:**
-* `yfinance`: Thu thập dữ liệu tài chính.
 * `scikit-learn`: Triển khai các mô hình Linear, Ridge, Random Forest, Gradient Boosting.
 * `xgboost`: Triển khai XGBoost.
 * `shap`: Giải thích tầm quan trọng của các tính năng (Feature Importance).
