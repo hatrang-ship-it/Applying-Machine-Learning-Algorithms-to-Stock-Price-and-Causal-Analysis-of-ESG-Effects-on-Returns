@@ -48,11 +48,39 @@ Nghiên cứu này tập trung vào hai mục tiêu chính:
 | Gradient Boosting | 6.09 | 528.93 | 0.9745 |
 | XGBoost | 19.21 | 10781.21 | 0.4794 |
 
-## 🚀 Cách chạy dự án
+## Đánh giá tác động ESG và Nghiên cứu nhân quả
 
-1. Clone repository này về máy.
-2. Cài đặt các thư viện cần thiết: `pip install -r requirements.txt`
-3. Chạy các notebook trong thư mục `notebooks/` theo thứ tự quy trình đã nêu trong báo cáo.
+Nghiên cứu này phân tích sự tích hợp của điểm số và rủi ro ESG vào các mô hình dự báo giá cổ phiếu, đồng thời sử dụng phương pháp nhân quả để đánh giá tác động của ESG đến lợi nhuận doanh nghiệp.
+
+### Dự báo giá cổ phiếu
+
+
+* **Yếu tố tác động:** Sử dụng SHAP cho thấy giá cổ phiếu dự báo chủ yếu bị chi phối bởi dữ liệu giá trong quá khứ (đặc biệt là giá trễ 1 ngày và đường trung bình trượt). Các biến số ESG chỉ đóng góp rất nhỏ vào khả năng dự báo giá ngắn hạn.
+
+
+
+### Nghiên cứu nhân quả (Causal Inference)
+
+Sử dụng phương pháp **Double Machine Learning (DML)** để xử lý vấn đề nội sinh, nghiên cứu đã rút ra các kết luận về mối quan hệ nhân quả giữa ESG và lợi nhuận:
+
+* **Tác động của ESG Risk:**
+* **Môi trường (E):** Rủi ro môi trường cao có xu hướng tạo ra lợi nhuận cao hơn (lợi nhuận bù đắp cho rủi ro).
+* **Xã hội (S):** Rủi ro xã hội có tác động tiêu cực rõ rệt đến hiệu quả kinh doanh.
+* **Quản trị (G):** Rủi ro quản trị có tác động tiêu cực nhưng không đáng kể.
+
+* **Tác động của ESG Score:**
+* Cải thiện điểm số ở cả 3 trụ cột (E, S, G) đều dẫn đến sự gia tăng trực tiếp trong lợi nhuận trung bình của doanh nghiệp.
+* **Ngắn hạn (Tháng):** Điểm quản trị (G) có ảnh hưởng mạnh nhất do thị trường phản ứng nhanh với các thay đổi về quyền lực cổ đông.
+* **Dài hạn (Năm):** Điểm môi trường (E) và xã hội (S) thể hiện tác động lớn hơn và rõ rệt hơn, cho thấy các chiến lược phát triển bền vững cần thời gian để tạo ra giá trị kinh tế cụ thể.
+
+
+### Kết luận chung
+
+* Các chỉ số ESG **không phù hợp** để dự báo giá cổ phiếu hàng ngày (ngắn hạn) vì giá cổ phiếu ngắn hạn bị chi phối mạnh bởi các biến kỹ thuật.
+
+
+* ESG có tác động **đáng kể và tích cực đến lợi nhuận dài hạn** (lợi nhuận tháng/năm), là yếu tố then chốt cho các quyết định đầu tư bền vững.
+
 
 ## 🌐 Demo
 
